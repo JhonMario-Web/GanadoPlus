@@ -34,6 +34,7 @@ public class Vaca {
 	public Vaca(Long id, Double peso, Double altura, Double longitudCuerpo, Double circunferenciaPecho) {
 		super();
 		this.id = id;
+		
 		this.peso = peso;
 		this.altura = altura;
 		this.longitudCuerpo = longitudCuerpo;
