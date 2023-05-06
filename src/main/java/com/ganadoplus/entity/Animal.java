@@ -47,6 +47,63 @@ public class Animal {
 	public void setId(String nombre) {
 		this.nombre = nombre;
 	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Double getPesoInicial() {
+		return pesoInicial;
+	}
+
+	public void setPesoInicial(Double pesoInicial) {
+		this.pesoInicial = pesoInicial;
+	}
+
+	public String getRaza() {
+		return raza;
+	}
+
+	public void setRaza(String raza) {
+		this.raza = raza;
+	}
+
+	public String getEstadoSalud() {
+		return estadoSalud;
+	}
+
+	public void setEstadoSalud(String estadoSalud) {
+		this.estadoSalud = estadoSalud;
+	}
+
+	public String getNivelProduccion() {
+		return nivelProduccion;
+	}
+
+	public void setNivelProduccion(String nivelProduccion) {
+		this.nivelProduccion = nivelProduccion;
+	}
+
+	public TipoAnimal getTipoAnimal() {
+		return tipoAnimal;
+	}
+
+	public void setTipoAnimal(TipoAnimal tipoAnimal) {
+		this.tipoAnimal = tipoAnimal;
+	}
+
+	@Override
+	public String toString() {
+		return "Animal [id=" + id + ", nombre=" + nombre + ", pesoInicial=" + pesoInicial + ", raza=" + raza
+				+ ", estadoSalud=" + estadoSalud + ", nivelProduccion=" + nivelProduccion + ", tipoAnimal=" + tipoAnimal
+				+ "]";
+	}
+	
+	
 	
 	
 	
